@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 export default function CurrentTime() {
   const [currentTime,setCurrenttime] = useState(new Date())
-    let inertval = setInterval(()=>{
-      setCurrenttime(new Date())
+  setInterval(()=>{
+        setCurrenttime(new Date())
     },1000)
-    return ()=> clearInterval(inertval);
-  
+
 
   return (
     <div>
