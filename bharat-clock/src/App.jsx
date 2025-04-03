@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Head from './components/head'
 import Slogn from './components/slogon'
+import CurrentTime from './components/cuurent_time'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <center className='container'>
       <Head/>
       <Slogn/>
+      <CurrentTime/>
 
 
     </center>
