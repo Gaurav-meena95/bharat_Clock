@@ -3,8 +3,8 @@ export default function CurrentTime(){
 
   return (
     <h3>Current Date :- 
-      <h2>{time.toLocaleDateString()}</h2>
-       and  Time :- 
-       <h2>{time.toLocaleTimeString()}</h2></h3>
+      <h2 className="date">{time.toLocaleDateString()}</h2>
+ Time :- 
+       <h2 className="time">{time.toLocaleTimeString()}</h2></h3>
   )
 }

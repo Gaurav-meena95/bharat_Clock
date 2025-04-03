@@ -3,15 +3,26 @@
   color: antiquewhite;
 }
 .slogn{
-  color:rgb(10, 246, 238);
+  color:rgb(169, 199, 16);
   font-weight: 800;
 
 }
 .header h1{
   background-color: rgb(8, 104, 13);
+  padding: 10px;
+
 }
 .container{
-  /* width: 400px;
-  height: 400px; */
-  background-color: cadetblue;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(3, 246, 246);
+  padding: 30px;
+  border-radius: 20px;
+
+}
+.date{
+  color: rgb(240, 214, 16);
+}
+.time{
+  color: rgb(240, 214, 16);
 }
